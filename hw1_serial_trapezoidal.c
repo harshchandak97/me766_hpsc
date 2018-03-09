@@ -14,5 +14,5 @@ for (int i = 0; i < n+1; ++i)
 	x = x1; //Updating x for the next interval
 }
 printf("Area under a sine curve between 0 to pi using Trapezoidal method = %f \n", area);
-return 0;	
+	
 }
