@@ -4,8 +4,11 @@
 
 int main()
 {
-int n =100;
+int n;
 float pi = 3.14159, area = 0, x = 0, x1 = 0;
+printf("Enter the number of divisions: ");
+scanf("%d",&n);
+
 for (int i = 0; i < n+1; ++i)
 {
 	x1 = i*pi/n ; //Breaking the range 0 to pi into n intervals

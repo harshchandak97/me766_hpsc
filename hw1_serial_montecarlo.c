@@ -5,8 +5,10 @@
 
 int main()
 {
-int n = 1000, inside_curve = 0;
+int n, inside_curve = 0;
 long double random_x, random_y, area, pi = 3.14159 ;
+printf("Enter the number of Sampling points: ");
+scanf("%d",&n);
 
 srand(time(NULL));
 
